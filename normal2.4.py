@@ -19,3 +19,22 @@ set_list = set(list21)
 print(set_list)
 
 # б)
+
+or_list = []
+for _ in list21:
+    if list21.count(_) == 1:
+        or_list.append(_)
+print(or_list)
+
+# d_list = []
+# for _ in list21:
+#     i = list21.count(_) + 1
+#     while i >= len(list21):
+#         if _ == list21[i]:
+#             list21.pop(i)
+#         else:
+#             i += 1
+# print(list21)
+# sd_list = set(d_list)
+# final_list = set_list - sd_list
+# print(final_list)
