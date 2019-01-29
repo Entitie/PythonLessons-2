@@ -21,9 +21,9 @@ print(set_list)
 # б)
 
 or_list = []
-for _ in list21:
-    if list21.count(_) == 1:
-        or_list.append(_)
+for k in list21:
+    if list21.count(k) == 1:
+        or_list.append(k)
 print(or_list)
 
 # d_list = []
